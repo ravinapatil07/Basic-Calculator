@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculation.js"></script>
+</head>
+
+<body onload="">
+    <center>
+        <h1>Calculator</h1>
+        <div>
+            <table>
+                <thead>
+                    <th colspan="4">
+                        <input type="text" name="result" id="result" class="result" value="">
+                    </th>
+                <tbody>
+                    <tr>
+                        <td>
+                            <button onclick="basic_op('mc')" class="function"  value="mc">mc</button>
+                        </td>
+                        <td>
+                            <button onclick="basic_op('mr')" class="function" value="mr">mr</button>
+                        </td>
+                        <td>
+                            <button onclick="basic_op('m-')" class="function" value="m-">m-</button>
+                        </td>
+                        <td>
+                            <button onclick="basic_op('m+')" class="function" value="m+">m+</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="basic_op('CE')" class="function" value="CE">CE</button>
+                        </td>
+                        <td>
+                            <button onclick="basic_op('sqrt')" class="function" value="sqrt of x">&Sqrt;X</button>
+                        </td>
+                        <td>
+                            <button onclick="basic_op('per')" class="function" value="%">%</button>
+                        </td>
+                        <td>
+                            <button onclick="operation('div')" class="operator" value="/">&divide;</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="number('7')" class="number" value="7">7</button>
+                        </td>
+                        <td>
+                            <button onclick="number('8')" class="number" value="8">8</button>
+                        </td>
+                        <td>
+                            <button onclick="number('9')" class="number" value="9">9</button>
+                        </td>
+                        <td>
+                            <button onclick="operation('multiply')" class="operator"  value="x">x</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="number('4')" class="number" value="4">4</button>
+                        </td>
+                        <td>
+                            <button onclick="number('5')" class="number" value="5">5</button>
+                        </td>
+                        <td>
+                            <button onclick="number('6')" class="number" value="6">6</button>
+                        </td>
+                        <td>
+                            <button onclick="operation('sub')" class="operator" value="-">-</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="number('1')" class="number" value="1">1</button>
+                        </td>
+                        <td>
+                            <button onclick="number('2')" class="number" value="2">2</button>
+                        </td>
+                        <td>
+                            <button onclick="number('3')" class="number" value="3">3</button>
+                        </td>
+                        <td>
+                            <button onclick="operation('add')" class="operator" value="+">+</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="number('0')" class="number" value="0">0</button>
+                        </td>
+                        <td>
+                            <button onclick="number('.')" class="number" value=".">.</button>
+                        </td>
+                        <td>
+                            <button onclick="operation('sign')" class="number" value="+/-">+/-</button>
+                        </td>
+                        <td>
+                            <button onclick="equal()" class="operator" value="=">=</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="basic_op('pi')" class="function" value="pi">&pi;</button>
+                        </td>
+                        <td>
+                            <button onclick="basic_op('square')" class="function" value="square of x">X^2</button>
+                        </td>
+                        <td>
+                            <button onclick="basic_op('r2')" class="function" value="R2">R2</button>
+                        </td>
+                        <td>
+                            <button onclick="basic_op('r0')" class="function" value="R0">R0</button>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+                </thead>
+            </table>
+        </div>
+    </center>
+</body>
+
+</html>
